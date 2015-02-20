@@ -4,7 +4,7 @@ angular.module('whereAmI', [])
 		
 		function init() {
 			navigator.geolocation ? navigator.geolocation.getCurrentPosition(success, fail) : alert(
-				'Geolocation not avalible on this device.');
+				'Geolocation not available on this device.');
 
 			/* if (navigator.geolocation) {
 				navigator.geolocation.getCurrentPosition(success, fail);
